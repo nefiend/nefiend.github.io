@@ -5,7 +5,7 @@
 # Site
 title: Nefiend Sleepy Home
 subtitle:
-description: 写写记记
+description: 写写记记 九零后老Boy
 keywords:
 author: Nefiend
 language: zh-Hans
@@ -81,4 +81,4 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:nefiend/nefiend.github.io.git
-  branch: public
+  branch: master
