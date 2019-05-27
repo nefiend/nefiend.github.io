@@ -252,6 +252,141 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/25/聊聊图床/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nefiend">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/DogKing.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nefiend Sleepy Home">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/05/25/聊聊图床/" itemprop="url">聊聊图床</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-25T20:26:42+08:00">
+                2019-05-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>上周开了这个博客，本以为可以顺风顺水的开始大书特书了，然而残酷的现实又给我上了一课。我用的markdown语言来写文章，但是markdown千好万好，唯独这个图片处理有点让人感觉差那么点意思。也许是因为markdown是一种轻量级标记语言的缘故吧，它的重点是标记，最终通过软件将这些标记渲染成对应的效果。</p>
+<p>实际上markdown添加图片是通过标记图片链接来进行添加图片的，所以写博客的时候要考虑图片放在哪里。按道理来讲，图片与文章存放在一起是最好的，但是我用github部署的静态博客，空间有限啊。一张手机照片都动辄十来兆，就github那点容量（据说一个repo是1G的容量）哪里够用呢。</p>
+<p>网上的解决方法就是使用图床——网络上存储图片的地方。特地在知乎上搜索了一下图床，<a href="https://zhuanlan.zhihu.com/p/35270383" target="_blank" rel="noopener">盘点一下免费好用的图床</a>这个答案给出了很多图床的方案，我大致分了一下类别</p>
+<ol>
+<li>专业云存储服务商，上传图片到他们的存储服务器中，可以管理图片，不用担心图片有效性。代表有免费的七牛云、又拍云，付费的阿里云、腾讯云等</li>
+<li>使用微博做图床，即开一个微博账号，将要使用的图片发到微博上，然后获取外链，就可以在markdown中使用了。但是不幸的是，到目前为止，微博开启了防盗链功能，微博图床<strong>阵亡</strong></li>
+<li>上传图片可以获得一个访问的外链，且上传图片你可以进行管理，但是无法保证其有效性，代表为<a href="https://www.superbed.cn/" target="_blank" rel="noopener"><strong>聚合图床</strong></a></li>
+<li>上传图片可以获得一个访问的外链，但是上传的图片不能管理，也不知道其存储的位置，有<a href="https://sm.ms" target="_blank" rel="noopener"><strong>SM.MS</strong></a> 、<a href="https://imgchr.com" target="_blank" rel="noopener"><strong>路过图床</strong></a>等</li>
+</ol>
+<p>虽然口袋空空，但这并不妨碍我对数据的重视，所以我最初选择了有10G免费存储空间的七牛云来搭图床。我果断的在官网注册账号，然后按照文档开始搭建图片存储空间。结果网站提示我分配给我的是测试域名，30天之后就会删除，到时候我存储的图片外链都得失效。</p>
+<p><img src="https://pic2.superbed.cn/item/5cec12fb451253d178f8dd76" alt></p>
+<p>这我哪能受得了，得知绑定自己域名就可以免受数据迁移之苦，我就去阿里云万网上注册了一个.cn顶级域名。现在想想，我就写个个人博客，有必要买个.cn的顶级域名吗，真是冲动消费不可取啊。也是因为这个图床问题困扰了我好几天没有好的(免费的)解决方法，心想买个域名后面也许可以做做更有意思的事儿，也就干脆利落的买了。</p>
+<p>等了两天阿里云域名的实名备案，再来七牛云上进行绑定 ，居然告诉我没有备案，WTF。</p>
+<p><img src="https://ae01.alicdn.com/kf/HTB1hHDiaq1s3KVjSZFA760_ZXXaO.png" alt></p>
+<p>我已经完成了ICP实名备案，为什么还说我没备案。仔细一看，原来还要<strong>公安网备案</strong>。既然都走到这里了，那就一口气走下去吧，结果去公安网备案还要服务器，WTF！我一寄居在github pages下面的静态博客，哪来的服务器啊。难道我还要再去买一个服务器吗？我仿佛觉得我上了个套儿。</p>
+<p>最后心一横，直接使用了聚合图床，图片我本地再保存一份得了，以后再去折腾吧（还是因为穷啊）。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/19/实用工具记录/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -365,8 +500,12 @@
 <p>我的主力工具是一台台式电脑，配了个27寸的显示器，然而书桌太小，没有多余的地方放我的笔记本，结果我灵机一闪，笔记本只用露出显示器让我看到就可以了呀，输入用台式电脑的同一套键鼠就行了。所以我就搞了下面这样一个方案，自我感觉还不错，唯一不爽的就是笔记本屏幕太窄了，看网页还需要左右拖动。</p>
 <p>哦对了，笔记本装的ubuntu，本来平时用SSH登录敲敲命令就好了，但是觉得浪费了一台笔记本的资源。所以又瞎折腾了一番，至少效果还过得去。</p>
 <p><img src="https://pic2.superbed.cn/item/5ce821e4451253d178d05792" alt></p>
-<p>待继续补充。。。</p>
-<h1 id="4-Listary"><a href="#4-Listary" class="headerlink" title="4. Listary"></a>4. Listary</h1>
+<h1 id="4-Listary"><a href="#4-Listary" class="headerlink" title="4. Listary"></a>4. <a href="https://www.listary.com/" target="_blank" rel="noopener">Listary</a></h1><p>一个小巧的本地搜索工具，几乎成了我电脑中使用频率最高的软件了，比Windows自带的搜索功能更快更方便。</p>
+<p>当然还有另外一款更强大的搜索工具——<a href="https://www.voidtools.com/zh-cn/" target="_blank" rel="noopener">everything</a>，可以支持正则表达式进行快速搜索。对于我个人来说，listary的功能已经足够我日常使用了，并且listary的UI交互给人一种更简洁的感觉。</p>
+<p>自从有了它，再也不用愁找不到资料存在哪里了。</p>
+<p><img src="https://pic.superbed.cn/item/5ceaa7ba451253d178ea7b31" alt></p>
+<p><img src="https://pic2.superbed.cn/item/5ceaa7ba451253d178ea7b2f" alt></p>
+
           
         
       
@@ -507,8 +646,7 @@
       
         
           
-            <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br></pre></td></tr></table></figure>
-<p>终于把心心念念的个人博客搭出来了，用的hexo + github-pages的部署方案，网上找了些<a href="https://www.jianshu.com/p/f4cc5866946b" target="_blank" rel="noopener">教程</a>，以及<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo的官方文档</a>，花了点时间就撸了出来。</p>
+            <p>终于把心心念念的个人博客搭出来了，用的hexo + github-pages的部署方案，网上找了些<a href="https://www.jianshu.com/p/f4cc5866946b" target="_blank" rel="noopener">教程</a>，以及<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo的官方文档</a>，花了点时间就撸了出来。</p>
 <p>既然开始写了，就把一些碎碎念都记下来吧，本来写博客的初衷就是记录一些东西。</p>
 <ol>
 <li><p>为什么要写博客</p>
@@ -527,7 +665,6 @@
 <p>Anyway，想写什么就写什么吧，毕竟我有root权限，我说了算 @&gt;@</p>
 </li>
 </ol>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
           
         
@@ -611,7 +748,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -633,7 +770,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
